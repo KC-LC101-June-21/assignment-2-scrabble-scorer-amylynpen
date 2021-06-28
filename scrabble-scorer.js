@@ -88,8 +88,8 @@ function scorerPrompt() {
   }
   else {
     console.log("Invalid entry. Please try again.\n")
+    runProgram();
   }
-  initialPrompt();
 }
 
 const scoringAlgorithms = [ {
